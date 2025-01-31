@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <nav>
+        <h2>SAHIL KUMAR</h2>
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Hello, I'm a Web Developer</h1>
+        <p>Passionate about creating stunning web applications & user experiences.</p>
+        <a class="btn" onclick="changeBackground()">Creator Journey</a>
+    </header>
+    
+    <section id="skills">
+        <h2>Skill-Set</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Data Structure Algorithm</h3>
+                <p>Proficient in Data Structures and Algorithms (DSA), solving complex problems, and implementing algorithms for real-world applications.</p>
+            </div>
+            <div class="skill-card">
+                <h3>React.js</h3>
+                <p>Proficient in building dynamic and scalable web applications using React. Experienced with component-based architecture, state management and optimizing performance.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Strong proficiency in modern JavaScript (ES6+), including DOM manipulation, asynchronous programming (Promises, Async/Await), and event-driven development.</p>
+            </div>
+            <div class="skill-card">
+                <h3>GSAP</h3>
+                <p>Skilled in creating high-performance, smooth animations for web applications. Proficient in timeline-based animations, scroll-driven effects.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Tailwind CSS</h3>
+                <p>Experienced in building responsive and modern UI designs using Tailwind CSS. Proficient in utility-first styling, customizing themes.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Bootstrap</h3>
+                <p>Proficient in building responsive and mobile-first web applications using Bootstrap. Experienced with its grid system, prebuilt components, and utility classes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>TastyTrail</h3>
+                <p>Developed a responsive and interactive food delivery website using React.js. Implemented a modern UI with reusable components, and dynamic state management for an enhanced user experience.</p>
+            </div>
+            <div class="project-card">
+                <h3>QuickTake</h3>
+                <p>Developed a dynamic news website using React.js that fetches real-time news from 150,000+ sources. Displayed categorized news with an interactive UI for an engaging user experience.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Connect with Me</h2>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-btn">Stay Connected</button>
+        </form>
+    </section>
+    <button onclick="changeBackgroundColor()">Change Color</button>
+    <script src="script.js"></script>
+</body>
+</html>
